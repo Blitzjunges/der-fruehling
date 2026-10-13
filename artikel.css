@@ -1,0 +1,53 @@
+/*Color pallet:
+#f2fcef
+#3ca536 #a63776
+#cce3c6
+#009eff
+*/
+/*Image ratio: 16:9*/
+
+body
+{
+  background-color: #f2fcef;
+  text-align: center;
+}
+
+#BILD
+{
+  width: 50%;
+}
+
+#TITEL
+{
+}
+
+#untertitel
+{
+  font-size: 21px;
+}
+
+#AUTORUNDDATUM
+{
+}
+
+#TEXT
+{
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: justify;
+  font-size: 21px;
+}
+
+@media (max-width: 900px)
+{
+  #TEXT
+  {
+    padding-left: 0%;
+    padding-right: 0%;
+	  font-size: 18px;
+  }
+  #BILD
+  {
+    width: 100%;
+  }
+}
